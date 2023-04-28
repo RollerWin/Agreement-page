@@ -66,7 +66,10 @@
                 </div>
     
                 <div class="CardInputBlock">
-                    <input class="CardTextInput" type="text" placeholder="Пакет документов (ZIP или WinRAR файл)">
+                    <label class="CardTextLabel">
+                        <input class="CardTextInput" type="file">
+                        <p class="CardTextPlaceHolder">Пакет документов (ZIP или WinRAR файл)</p>
+                    </label>
                     <button class="TransparentButton">Отправить</button>
                 </div>
             </div>
@@ -88,12 +91,12 @@
                 <div class="CardInputBlock">
                     <div class="Contract">
                         <label class="ContractLabelFile">
-                            <input class="ContractInputFile" type="file" placeholder="Договор">
-                            <p>Добавить</p>
+                            <input class="ContractInputFile" type="file">
+                            <p class="ContractPlaceHolder">Добавить</p>
                         </label>
                         <button class="ContractButton">Подписать</button>
                     </div>    
-                    <input class="ReceiptInputFile" type="text" placeholder="Квитанция">
+                    <!-- <input class="ReceiptInputFile" type="text" placeholder="Квитанция"> -->
                     <button class="TransparentButton">Отправить</button>
                 </div>
             </div>
@@ -103,15 +106,15 @@
                     <div class="CardTitle">Оплата</div>
                     <div class="CardText">Тут должен быть доп текст-инструкция</div>
                 </div>
-                <div class="CardInputBlock">
+                <div class="CardInputBlock Cost">
                     <div>
                         <input class="ReceiptInputFile" type="email" placeholder="Электронная почта">
                     </div>
 
                     <div class="PriceBlock">
                         <div class="CoursePrice">
-                            <div class="PriceLabel">Цена курса</div>
-                            <div class="PriceNumber">12000р</div>
+                                <p class="CoursePrice">Цена курса</p>
+                                <p class="PriceNumber">12000р</p>
                         </div>
                         <hr class="Line">
                         <div class="FinalPrice">
@@ -119,7 +122,7 @@
                             <div class="FinalPriceNumber">12000р</div>
                         </div>
                     </div>
-                    <button class="PaymentButton">Оплатить&nbsp;&nbsp;&nbsp;12000р</button>
+                    <button class="PaymentButton"><div class="PriceNumber">Оплатить</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="">12000р</div></button>
                 </div>
             </div>
         </div>
