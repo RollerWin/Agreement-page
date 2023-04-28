@@ -1,0 +1,201 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    max-width: 1016px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    gap:60px;
+}
+
+.ContentCard{
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 100px;
+    /*gap: 73px;*/
+    /* flex-wrap: wrap; */
+
+    background: #EBF5FB;
+    border-radius: 15px;
+
+}
+
+.CardTextBlock{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 16px;
+}
+
+.CardTitle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.CardText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.AgreementList{
+    margin-top: 0;
+}
+
+li::marker {
+    font-size: 70%;
+}
+
+.CardInputBlock{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:20px;
+    margin-left: 59px;
+}
+
+.CardTextInput{
+    width: 381px;
+    height: 39.4px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+    background: #FFFFFF;
+    border: 0.2px solid #C5C5C5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.TransparentButton{
+    width: 201px;
+    height: 43px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+
+    background: #0088CC;
+    color:#FFFFFF;
+    border: 0.2px solid #C5C5C5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    
+    padding: 13px 25px 13px 15px;
+    gap: 10px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ContractInputFile{
+    z-index: -1;
+    opacity: 0;
+}
+
+.ContractLabelFile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+
+    height: 39.4px;
+    width: 245px;
+
+    background: #FFFFFF;
+    border: 0.2px solid #C5C5C5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.ContractButton{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 25px 13px 15px;
+gap: 10px;
+
+height: 43px;
+width: 136px;
+
+background: #0088CC;
+border: 0.2px solid #C5C5C5;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+border-radius: 0px 5px 5px 0px;
+}
+
+.Contract{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ReceiptInputFile{
+    width: 381px;
+    height: 39px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+    background: #FFFFFF;
+    border: 0.2px solid #C5C5C5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+/* .InputEmailPayment{
+
+} */
+
+.CoursePrice{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.PriceLabel{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
